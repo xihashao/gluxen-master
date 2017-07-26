@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="gluxen-jgx-web:war">
+    <output-path>$PROJECT_DIR$/gluxen-jgx/gluxen-jgx-web/target</output-path>
+    <root id="archive" name="gluxen-jgx-web-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="gluxen-jgx-web:war exploded" />
+    </root>
+  </artifact>
+</component>

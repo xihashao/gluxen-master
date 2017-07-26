@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/gluxen-common/gluxen-common.iml" filepath="$PROJECT_DIR$/gluxen-common/gluxen-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gluxen-jgx/gluxen-jgx.iml" filepath="$PROJECT_DIR$/gluxen-jgx/gluxen-jgx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gluxen-jgx/gluxen-jgx-admin/gluxen-jgx-admin.iml" filepath="$PROJECT_DIR$/gluxen-jgx/gluxen-jgx-admin/gluxen-jgx-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gluxen-jgx/gluxen-jgx-common/gluxen-jgx-common.iml" filepath="$PROJECT_DIR$/gluxen-jgx/gluxen-jgx-common/gluxen-jgx-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gluxen-jgx/gluxen-jgx-dao/gluxen-jgx-dao.iml" filepath="$PROJECT_DIR$/gluxen-jgx/gluxen-jgx-dao/gluxen-jgx-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gluxen-jgx/gluxen-jgx-rpc-api/gluxen-jgx-rpc-api.iml" filepath="$PROJECT_DIR$/gluxen-jgx/gluxen-jgx-rpc-api/gluxen-jgx-rpc-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gluxen-jgx/gluxen-jgx-rpc-service/gluxen-jgx-rpc-service.iml" filepath="$PROJECT_DIR$/gluxen-jgx/gluxen-jgx-rpc-service/gluxen-jgx-rpc-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gluxen-jgx/gluxen-jgx-web/gluxen-jgx-web.iml" filepath="$PROJECT_DIR$/gluxen-jgx/gluxen-jgx-web/gluxen-jgx-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gluxen-master.iml" filepath="$PROJECT_DIR$/gluxen-master.iml" />
+    </modules>
+  </component>
+</project>

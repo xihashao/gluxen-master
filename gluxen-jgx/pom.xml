@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>jgx</artifactId>
+        <groupId>com.gluxen</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>gluxen-jgx</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>gluxen-jgx-admin</module>
+        <module>gluxen-jgx-common</module>
+        <module>gluxen-jgx-dao</module>
+        <module>gluxen-jgx-web</module>
+        <module>gluxen-jgx-rpc-api</module>
+        <module>gluxen-jgx-rpc-service</module>
+    </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.gluxen</groupId>
+                <artifactId>gluxen-common</artifactId>
+                <version>1.0.0</version>
+                <type>jar</type>
+            </dependency>
+            <dependency>
+                <groupId>com.gluxen</groupId>
+                <artifactId>gluxen-jgx-dao</artifactId>
+                <version>${project.version}</version>
+                <type>jar</type>
+            </dependency>
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>4.12</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>javax.servlet</groupId>
+                <artifactId>servlet-api</artifactId>
+                <version>2.5</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>javax.servlet</groupId>
+                <artifactId>jstl</artifactId>
+                <version>1.2</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+
+</project>
